@@ -59,40 +59,6 @@ Employee_attritaion_project/
 
 ---
 
-## Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/uday2319/Employee-Attrition-performanceFASTAPI.git
-cd Employee-Attrition-performanceFASTAPI
-```
-
-### 2. Create a virtual environment and install dependencies
-
-```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-# macOS / Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-### 3. Run the server
-
-Run this from the **project root**. The app loads the `.pkl` files by relative path, so it will not find them if you start it from another folder.
-
-```bash
-uvicorn app.app2:app --reload
-```
-
-The API is now running at `http://127.0.0.1:8000`, with interactive docs at `http://127.0.0.1:8000/docs`.
-
----
-
 ## API Reference
 
 ### `GET /`
@@ -259,4 +225,3 @@ To run it, download the dataset CSV from Kaggle and update the path in the `pd.r
 
 **Uday**, [GitHub @uday2319](https://github.com/uday2319)
 
-If you find this project useful, consider giving it a ⭐.
